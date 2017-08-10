@@ -1,0 +1,180 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	background-color: #ffffff;
+}
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper
+{
+	background-color: #ffffff;
+	margin: auto;
+}
+
+#title-bar
+{
+	background-color: #f1f1f1;
+	height: 72px;
+}
+#title-bar-part{
+	margin: auto;
+}
+#title-bar-part .logo{
+	float: left;
+	padding: 20px 0 0 50px;
+}
+#title-bar-part .logo img{
+	height: 36px;
+	width: 112px;
+}
+#title-bar-part .login{
+	float: right;
+	padding: 20px 50px 0 0;
+}
+#title-bar-part .logo .btn-info{
+	background-color:#4D90FE;
+}
+
+#title{
+	text-align: center;
+	margin-top: 27px;
+	margin-bottom: 50px;
+	font-size: 38px;
+	color: #555555;
+}
+.btn-sm{
+	background-color: #0E385F;
+	color: #ffffff;
+}
+#bodyfull{
+	background-color: #ffffff;
+}
+#bodypart{
+	width: 980px;
+	margin: auto;
+	margin-top: 0px;
+	background-color: #ffffff;
+}
+#bodyleft{
+	width: 60%;
+	float: left;
+}
+#bodyleft .text{
+	color:#737373;
+	text-align: center;
+	font-size: 20px;
+	width: 80%;
+}
+#bodyleft .text .logostrip{
+	padding-top: 20px;
+	text-align: center;
+}
+#bodyright{
+	width: 40%;
+	float: left;
+}
+
+#reg-form{
+	width: 362px;
+	float: right;
+	background-color: #e5e5e5;
+}
+#reg-form label{
+	padding: 10px 0 0 10px;
+}
+#reg-form .form-inline{
+	padding: 2px;
+	text-align: center;
+}
+/*
+#reg-form > div > input{
+	width: 100%;*/
+}
+#reg-form > div.username{
+	width: 100%;
+	text-align: center;
+}
+#month{
+	padding-left: 20px;
+	display: inline;
+	padding-right: 20px;
+}0
+#gender{
+	padding-left: 20px;
+	display: inline;
+	padding-right: 20px;
+
+}
+#bodyleft-info{
+	width: 80%;
+	padding-top: 60px;
+}
+#bodyleft-info h2{
+	font-size: 20px;
+	color: #737373;
+	text-align: center;
+
+}
+#bodyleft-info span{
+	font-size: 13px;
+	color: #737373;
+	text-align: center;}
+
+#bodyleft-info img{
+	text-align: center;
+
+}
+#gender > span{
+	margin-left: 10px;
+}
+#gender > div:nth-child(12) > button{
+	background-color: #3079ED;
+}
+#gender > div:nth-child(12) > button, #title-bar-part > div.login > button{
+	background-color: #3079ED;
+	width: 70px;
+}
+#captcha{
+	height: 150px;
+	background-color: #ffffff;
+	width: 80%;
+	text-align: center;
+	margin-top: 10px;
+	}
+#captcha .captcha-widget img{
+	width: 95%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #737373;
+}
+#captcha > div.form-group > input{
+	width: 60%;
+}
+
+#footer{
+	padding: 50px 0 20px 20px;
+}
+#footer ul{
+	border-top:1px solid #e5e5e5;
+	list-style-type: none;
+}
+#footer ul li{
+	float: left;
+	text-decoration: none;
+	margin: 0 30px 0 0px;
+
+}
+#footer ul li a{
+	color: #555555;
+	font-size: 12px;
+	font-family: arial;
+	text-decoration: none;
+}
+#footer ul li a:hover{
+	text-decoration: underline;
+}

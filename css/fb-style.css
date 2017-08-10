@@ -1,0 +1,17 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+	background-color: #ffcccc;
+}
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#title-bar{
+	background-color: ##3A5795;
+	height: 82px;
+}
